@@ -20,7 +20,13 @@ public class MathCalc {
             return 0;
         }
     }
-    public static double modularDivision(double firstNumber, double secondNumber){
-        return firstNumber % secondNumber;
+
+    public static double percentage(double firstNumber, double secondNumber) {
+        if (secondNumber != 0) {
+            return firstNumber / secondNumber * 100;
+        } else {
+            System.out.println("error");
+            return 0;
+        }
     }
 }

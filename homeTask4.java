@@ -24,7 +24,7 @@ public class homeTask4 {
                 result = MathCalc.division(firstNumber,secondNumber);
                 break;
             case '%':
-                result=MathCalc.modularDivision(firstNumber,secondNumber);
+                result=MathCalc.percentage(firstNumber,secondNumber);
                 break;
             default:
                 System.out.println("Such mathematical operation is not acceptable");
