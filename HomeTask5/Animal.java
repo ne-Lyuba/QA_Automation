@@ -30,7 +30,7 @@ public class Animal {
         isVegetarian = vegetarian;
     }
 
-    public void setNutrition(String nutrition){
+    public void setNutrition(String nutrition) {
         this.nutrition = nutrition;
     }
 
