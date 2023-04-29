@@ -3,6 +3,7 @@ package HomeTask7Array;
 public class InsertElement {
     public static int[] addElement(int[] array, int element) {
         return addElement(array, element, 0);
+
     }
 
     public static int[] addElement(int[] array, int element, int position) {
